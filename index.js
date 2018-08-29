@@ -13,4 +13,10 @@ function happyHolidayTo()
 {
   console.log("Happy ${holiday}, $name}!");
 }
-happyHolidayTo(Kwanza)
+happyHolidayTo('Kwanzaa', 'John');
+
+function holidayCountdown()
+{
+  console.log("It's ${days} days until ${holiday}!");
+}
+holidayCountdown(5, "Christmas");
