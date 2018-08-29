@@ -5,15 +5,15 @@ function happyHolidays()
 
 function happyHolidaysTo()
 {
-  return ("Happy holidays, ${name}!]");
+  return (`Happy holidays, ${name}!]`);
 }
-happyHolidaysTo ('Jack');
+happyHolidaysTo ('you');
 
 function happyHolidayTo()
 {
-   return ("Happy ${holiday}, $name}!");
+   return (`Happy ${holiday}, $name}!`);
 }
-happyHolidayTo('Kwanzaa', 'John');
+happyHolidayTo('Kwanzaa', 'you');
 
 function holidayCountdown()
 {
