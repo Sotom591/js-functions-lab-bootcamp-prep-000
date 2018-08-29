@@ -17,6 +17,6 @@ happyHolidayTo('Kwanzaa', 'you');
 
 function holidayCountdown()
 {
-  return ("It's ${days} days until ${holiday}!");
+  return (`It's ${days} days until ${holiday}!`);
 }
 holidayCountdown(5, "Christmas");
