@@ -3,17 +3,22 @@ function happyHolidays()
   return ("Happy holidays!");
 }
 
+
 function happyHolidaysTo()
 {
   return (`"Happy holidays", ${name}!`);
 }
 happyHolidaysTo('you');
 
+
+
 function happyHolidayTo()
 {
    return (`"Happy" ${holiday}, ${name}!`);
 }
 happyHolidayTo('Independence Day', 'you');
+
+
 
 function holidayCountdown()
 {
