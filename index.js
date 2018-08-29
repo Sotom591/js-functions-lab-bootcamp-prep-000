@@ -11,7 +11,7 @@ happyHolidaysTo ('you');
 
 function happyHolidayTo()
 {
-   return (`Happy ${holiday}, $name}!`);
+   return (`Happy ${holiday}, ${name}!`);
 }
 happyHolidayTo('Kwanzaa', 'you');
 
