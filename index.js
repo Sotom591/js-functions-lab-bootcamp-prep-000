@@ -5,6 +5,12 @@ function happyHolidays()
 
 function happyHolidaysTo()
 {
-  console.log("Happy holidays, ${name}!]")
+  console.log("Happy holidays, ${name}!]");
 }
-happyHolidaysTo ('Jack')
+happyHolidaysTo ('Jack');
+
+function happyHolidayTo()
+{
+  console.log("Happy ${holiday}, $name}!");
+}
+happyHolidayTo(Kwanza)
