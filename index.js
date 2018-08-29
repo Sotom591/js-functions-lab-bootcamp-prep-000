@@ -6,9 +6,9 @@ function happyHolidays()
 
 function happyHolidaysTo()
 {
-  return (`"Happy holidays", ${name}!`);
+  console.log (`"Happy holidays", ${name}!`);
 }
-happyHolidaysTo('you');
+ happyHolidayTo('you');
 
 
 
