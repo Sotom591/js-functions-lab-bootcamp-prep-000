@@ -22,6 +22,6 @@ happyHolidayTo('Independence Day', 'you');
 
 function holidayCountdown()
 {
-  return (`"It\'s" ${days} "days until" ${holiday}!`);
+  return ("It\'s" `${days}` "days until" `${holiday}!`);
 }
 holidayCountdown(20, "Mother's Day");
